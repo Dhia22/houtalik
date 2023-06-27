@@ -1,0 +1,41 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/KumbhSans-Black.ttf",
+      "sha1": "b52c2c958361d016cae34f232283351cbc55fb77"
+    },
+    {
+      "path": "assets/fonts/KumbhSans-Bold.ttf",
+      "sha1": "093900df7e87fbd992737fb645387a74bda4d222"
+    },
+    {
+      "path": "assets/fonts/KumbhSans-ExtraBold.ttf",
+      "sha1": "8bc5cd9475e8c4b310ed253521bd746724e22919"
+    },
+    {
+      "path": "assets/fonts/KumbhSans-ExtraLight.ttf",
+      "sha1": "486d6874ade48a5cb7b9f72933031f4507879842"
+    },
+    {
+      "path": "assets/fonts/KumbhSans-Light.ttf",
+      "sha1": "dedcc5c01c176ffa672eda0bee02a897bdd5a373"
+    },
+    {
+      "path": "assets/fonts/KumbhSans-Medium.ttf",
+      "sha1": "e0a2491a50de267c11ca146f0762c06d4d478855"
+    },
+    {
+      "path": "assets/fonts/KumbhSans-Regular.ttf",
+      "sha1": "e76cd4c37a381202fd2ef1a98106965801b42e64"
+    },
+    {
+      "path": "assets/fonts/KumbhSans-SemiBold.ttf",
+      "sha1": "f4bca072aceb54224680e95c1dd76e3906bfac16"
+    },
+    {
+      "path": "assets/fonts/KumbhSans-Thin.ttf",
+      "sha1": "080bf94f9fe65e653b1ad435845523b5aa5ef511"
+    }
+  ]
+}

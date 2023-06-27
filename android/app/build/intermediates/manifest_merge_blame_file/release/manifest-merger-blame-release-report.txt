@@ -1,0 +1,479 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.houtalik"
+4    android:versionCode="17"
+5    android:versionName="2.5" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/android/app/src/main/AndroidManifest.xml:3:5-67
+11-->/Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/android/app/src/main/AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/android/app/src/main/AndroidManifest.xml:4:5-65
+12-->/Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/android/app/src/main/AndroidManifest.xml:4:22-62
+13    <uses-permission android:name="android.permission.VIBRATE" />
+13-->/Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/android/app/src/main/AndroidManifest.xml:5:5-65
+13-->/Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/android/app/src/main/AndroidManifest.xml:5:22-63
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->/Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/android/app/src/main/AndroidManifest.xml:6:5-79
+14-->/Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/android/app/src/main/AndroidManifest.xml:6:22-76
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->/Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/android/app/src/main/AndroidManifest.xml:7:5-81
+15-->/Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/android/app/src/main/AndroidManifest.xml:7:22-78
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->/Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/android/app/src/main/AndroidManifest.xml:8:5-80
+16-->/Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/android/app/src/main/AndroidManifest.xml:8:22-78
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->/Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/android/app/src/main/AndroidManifest.xml:9:5-79
+17-->/Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/android/app/src/main/AndroidManifest.xml:9:22-77
+18
+19    <uses-feature android:name="android.hardware.camera" />
+19-->/Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/android/app/src/main/AndroidManifest.xml:10:5-60
+19-->/Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/android/app/src/main/AndroidManifest.xml:10:19-57
+20
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->[:react-native-community_netinfo] /Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-79
+21-->[:react-native-community_netinfo] /Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-76
+22    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+22-->[:react-native-community_netinfo] /Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-76
+22-->[:react-native-community_netinfo] /Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-73
+23
+24    <uses-feature
+24-->[:react-native-camera] /Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalRelease/AndroidManifest.xml:14:5-16:36
+25        android:name="android.hardware.camera.autofocus"
+25-->[:react-native-camera] /Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalRelease/AndroidManifest.xml:15:9-57
+26        android:required="false" />
+26-->[:react-native-camera] /Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalRelease/AndroidManifest.xml:16:9-33
+27    <uses-feature
+27-->[com.google.android.gms:play-services-maps:18.0.2] /Users/dreamworld/.gradle/caches/transforms-3/189eb831011d70b66f6d3e01d41a6374/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:26:5-28:35
+28        android:glEsVersion="0x00020000"
+28-->[com.google.android.gms:play-services-maps:18.0.2] /Users/dreamworld/.gradle/caches/transforms-3/189eb831011d70b66f6d3e01d41a6374/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:27:9-41
+29        android:required="true" />
+29-->[com.google.android.gms:play-services-maps:18.0.2] /Users/dreamworld/.gradle/caches/transforms-3/189eb831011d70b66f6d3e01d41a6374/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:28:9-32
+30
+31    <queries>
+31-->[com.google.android.gms:play-services-maps:18.0.2] /Users/dreamworld/.gradle/caches/transforms-3/189eb831011d70b66f6d3e01d41a6374/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:30:5-34:15
+32
+33        <!-- Needs to be explicitly declared on Android R+ -->
+34        <package android:name="com.google.android.apps.maps" />
+34-->[com.google.android.gms:play-services-maps:18.0.2] /Users/dreamworld/.gradle/caches/transforms-3/189eb831011d70b66f6d3e01d41a6374/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
+34-->[com.google.android.gms:play-services-maps:18.0.2] /Users/dreamworld/.gradle/caches/transforms-3/189eb831011d70b66f6d3e01d41a6374/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:18-61
+35    </queries>
+36
+37    <uses-permission android:name="android.permission.WAKE_LOCK" />
+37-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:25:5-68
+37-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:25:22-65
+38    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+38-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:5-81
+38-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:22-78
+39    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+39-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:5-77
+39-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:22-74
+40
+41    <application
+41-->/Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/android/app/src/main/AndroidManifest.xml:11:5-37:19
+42        android:name="com.houtalik.MainApplication"
+42-->/Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/android/app/src/main/AndroidManifest.xml:12:7-38
+43        android:allowBackup="false"
+43-->/Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/android/app/src/main/AndroidManifest.xml:16:7-34
+44        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+44-->[androidx.core:core:1.7.0] /Users/dreamworld/.gradle/caches/transforms-3/c05df83dbc847297b7ccad2bb18337e0/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+45        android:icon="@mipmap/ic_launcher"
+45-->/Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/android/app/src/main/AndroidManifest.xml:14:7-41
+46        android:label="@string/app_name"
+46-->/Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/android/app/src/main/AndroidManifest.xml:13:7-39
+47        android:requestLegacyExternalStorage="true"
+47-->/Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/android/app/src/main/AndroidManifest.xml:18:7-50
+48        android:roundIcon="@mipmap/ic_launcher_round"
+48-->/Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/android/app/src/main/AndroidManifest.xml:15:7-52
+49        android:supportsRtl="false"
+49-->/Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/android/app/src/main/AndroidManifest.xml:17:7-34
+50        android:theme="@style/AppTheme" >
+50-->/Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/android/app/src/main/AndroidManifest.xml:19:7-38
+51        <meta-data
+51-->/Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/android/app/src/main/AndroidManifest.xml:21:5-22:63
+52            android:name="com.google.android.geo.API_KEY"
+52-->/Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/android/app/src/main/AndroidManifest.xml:21:16-61
+53            android:value="AIzaSyDg8AX5xQgqdPlXfqIMRhL-iSP5T8MMD9M" />
+53-->/Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/android/app/src/main/AndroidManifest.xml:22:5-60
+54
+55        <activity
+55-->/Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/android/app/src/main/AndroidManifest.xml:24:7-36:18
+56            android:name="com.houtalik.MainActivity"
+56-->/Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/android/app/src/main/AndroidManifest.xml:25:9-37
+57            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+57-->/Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/android/app/src/main/AndroidManifest.xml:28:9-118
+58            android:exported="true"
+58-->/Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/android/app/src/main/AndroidManifest.xml:31:9-32
+59            android:label="@string/app_name"
+59-->/Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/android/app/src/main/AndroidManifest.xml:26:9-41
+60            android:launchMode="singleTask"
+60-->/Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/android/app/src/main/AndroidManifest.xml:29:9-40
+61            android:theme="@style/Theme.App.Starting"
+61-->/Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/android/app/src/main/AndroidManifest.xml:27:10-51
+62            android:windowSoftInputMode="adjustResize" >
+62-->/Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/android/app/src/main/AndroidManifest.xml:30:9-51
+63            <intent-filter>
+63-->/Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/android/app/src/main/AndroidManifest.xml:32:9-35:25
+64                <action android:name="android.intent.action.MAIN" />
+64-->/Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/android/app/src/main/AndroidManifest.xml:33:13-65
+64-->/Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/android/app/src/main/AndroidManifest.xml:33:21-62
+65
+66                <category android:name="android.intent.category.LAUNCHER" />
+66-->/Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/android/app/src/main/AndroidManifest.xml:34:13-73
+66-->/Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/android/app/src/main/AndroidManifest.xml:34:23-70
+67            </intent-filter>
+68        </activity>
+69
+70        <provider
+70-->[:react-native-image-picker] /Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+71            android:name="com.imagepicker.ImagePickerProvider"
+71-->[:react-native-image-picker] /Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-63
+72            android:authorities="com.houtalik.imagepickerprovider"
+72-->[:react-native-image-picker] /Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-71
+73            android:exported="false"
+73-->[:react-native-image-picker] /Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+74            android:grantUriPermissions="true" >
+74-->[:react-native-image-picker] /Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+75            <meta-data
+75-->[:react-native-image-picker] /Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:70
+76                android:name="android.support.FILE_PROVIDER_PATHS"
+76-->[:react-native-image-picker] /Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+77                android:resource="@xml/imagepicker_provider_paths" />
+77-->[:react-native-image-picker] /Users/dreamworld/Desktop/Rahul/ReactNative/houtalik/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-67
+78        </provider>
+79
+80        <meta-data
+80-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/dreamworld/.gradle/caches/transforms-3/c6d9b035aeec0f3942a55bb4cc6cf0fc/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:11:9-13:43
+81            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+81-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/dreamworld/.gradle/caches/transforms-3/c6d9b035aeec0f3942a55bb4cc6cf0fc/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:12:13-84
+82            android:value="GlideModule" />
+82-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/dreamworld/.gradle/caches/transforms-3/c6d9b035aeec0f3942a55bb4cc6cf0fc/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:13:13-40
+83
+84        <service
+84-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/dreamworld/.gradle/caches/transforms-3/1df6b23ae872903d78fc8423dcda63e5/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:9:9-15:19
+85            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+85-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/dreamworld/.gradle/caches/transforms-3/1df6b23ae872903d78fc8423dcda63e5/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:10:13-91
+86            android:directBootAware="true"
+86-->[com.google.mlkit:common:17.2.0] /Users/dreamworld/.gradle/caches/transforms-3/b16568c891cc1c16c74e378af0080f10/transformed/jetified-common-17.2.0/AndroidManifest.xml:17:13-43
+87            android:exported="false" >
+87-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/dreamworld/.gradle/caches/transforms-3/1df6b23ae872903d78fc8423dcda63e5/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:11:13-37
+88            <meta-data
+88-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/dreamworld/.gradle/caches/transforms-3/1df6b23ae872903d78fc8423dcda63e5/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:12:13-14:85
+89                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+89-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/dreamworld/.gradle/caches/transforms-3/1df6b23ae872903d78fc8423dcda63e5/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:13:17-120
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/dreamworld/.gradle/caches/transforms-3/1df6b23ae872903d78fc8423dcda63e5/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:14:17-82
+91            <meta-data
+91-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /Users/dreamworld/.gradle/caches/transforms-3/4660bc21375389e763ca9d910adec3d6/transformed/jetified-play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:12:13-14:85
+92                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
+92-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /Users/dreamworld/.gradle/caches/transforms-3/4660bc21375389e763ca9d910adec3d6/transformed/jetified-play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:13:17-114
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /Users/dreamworld/.gradle/caches/transforms-3/4660bc21375389e763ca9d910adec3d6/transformed/jetified-play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:14:17-82
+94            <meta-data
+94-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /Users/dreamworld/.gradle/caches/transforms-3/2d470dc0633e0141943ce2f2d221b070/transformed/jetified-play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:12:13-14:85
+95                android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar"
+95-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /Users/dreamworld/.gradle/caches/transforms-3/2d470dc0633e0141943ce2f2d221b070/transformed/jetified-play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:13:17-114
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /Users/dreamworld/.gradle/caches/transforms-3/2d470dc0633e0141943ce2f2d221b070/transformed/jetified-play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:14:17-82
+97            <meta-data
+97-->[com.google.mlkit:vision-common:16.5.0] /Users/dreamworld/.gradle/caches/transforms-3/1b390636356fec7edbd70727d6ff7282/transformed/jetified-vision-common-16.5.0/AndroidManifest.xml:12:13-14:85
+98                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+98-->[com.google.mlkit:vision-common:16.5.0] /Users/dreamworld/.gradle/caches/transforms-3/1b390636356fec7edbd70727d6ff7282/transformed/jetified-vision-common-16.5.0/AndroidManifest.xml:13:17-124
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[com.google.mlkit:vision-common:16.5.0] /Users/dreamworld/.gradle/caches/transforms-3/1b390636356fec7edbd70727d6ff7282/transformed/jetified-vision-common-16.5.0/AndroidManifest.xml:14:17-82
+100            <meta-data
+100-->[com.google.mlkit:common:17.2.0] /Users/dreamworld/.gradle/caches/transforms-3/b16568c891cc1c16c74e378af0080f10/transformed/jetified-common-17.2.0/AndroidManifest.xml:20:13-22:85
+101                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+101-->[com.google.mlkit:common:17.2.0] /Users/dreamworld/.gradle/caches/transforms-3/b16568c891cc1c16c74e378af0080f10/transformed/jetified-common-17.2.0/AndroidManifest.xml:21:17-120
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[com.google.mlkit:common:17.2.0] /Users/dreamworld/.gradle/caches/transforms-3/b16568c891cc1c16c74e378af0080f10/transformed/jetified-common-17.2.0/AndroidManifest.xml:22:17-82
+103        </service> <!-- Needs to be explicitly declared on P+ -->
+104        <uses-library
+104-->[com.google.android.gms:play-services-maps:18.0.2] /Users/dreamworld/.gradle/caches/transforms-3/189eb831011d70b66f6d3e01d41a6374/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
+105            android:name="org.apache.http.legacy"
+105-->[com.google.android.gms:play-services-maps:18.0.2] /Users/dreamworld/.gradle/caches/transforms-3/189eb831011d70b66f6d3e01d41a6374/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:40:13-50
+106            android:required="false" />
+106-->[com.google.android.gms:play-services-maps:18.0.2] /Users/dreamworld/.gradle/caches/transforms-3/189eb831011d70b66f6d3e01d41a6374/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:41:13-37
+107
+108        <provider
+108-->[com.google.mlkit:common:17.2.0] /Users/dreamworld/.gradle/caches/transforms-3/b16568c891cc1c16c74e378af0080f10/transformed/jetified-common-17.2.0/AndroidManifest.xml:9:9-13:38
+109            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+109-->[com.google.mlkit:common:17.2.0] /Users/dreamworld/.gradle/caches/transforms-3/b16568c891cc1c16c74e378af0080f10/transformed/jetified-common-17.2.0/AndroidManifest.xml:10:13-78
+110            android:authorities="com.houtalik.mlkitinitprovider"
+110-->[com.google.mlkit:common:17.2.0] /Users/dreamworld/.gradle/caches/transforms-3/b16568c891cc1c16c74e378af0080f10/transformed/jetified-common-17.2.0/AndroidManifest.xml:11:13-69
+111            android:exported="false"
+111-->[com.google.mlkit:common:17.2.0] /Users/dreamworld/.gradle/caches/transforms-3/b16568c891cc1c16c74e378af0080f10/transformed/jetified-common-17.2.0/AndroidManifest.xml:12:13-37
+112            android:initOrder="99" />
+112-->[com.google.mlkit:common:17.2.0] /Users/dreamworld/.gradle/caches/transforms-3/b16568c891cc1c16c74e378af0080f10/transformed/jetified-common-17.2.0/AndroidManifest.xml:13:13-35
+113
+114        <activity
+114-->[com.google.android.gms:play-services-base:18.1.0] /Users/dreamworld/.gradle/caches/transforms-3/b83e17027077728320a69840354fdfe3/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+115            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+115-->[com.google.android.gms:play-services-base:18.1.0] /Users/dreamworld/.gradle/caches/transforms-3/b83e17027077728320a69840354fdfe3/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+116            android:exported="false"
+116-->[com.google.android.gms:play-services-base:18.1.0] /Users/dreamworld/.gradle/caches/transforms-3/b83e17027077728320a69840354fdfe3/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+117            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+117-->[com.google.android.gms:play-services-base:18.1.0] /Users/dreamworld/.gradle/caches/transforms-3/b83e17027077728320a69840354fdfe3/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+118
+119        <meta-data
+119-->[com.google.android.gms:play-services-basement:18.1.0] /Users/dreamworld/.gradle/caches/transforms-3/d907f746f04f215d6be91c8609ed7a91/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+120            android:name="com.google.android.gms.version"
+120-->[com.google.android.gms:play-services-basement:18.1.0] /Users/dreamworld/.gradle/caches/transforms-3/d907f746f04f215d6be91c8609ed7a91/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+121            android:value="@integer/google_play_services_version" />
+121-->[com.google.android.gms:play-services-basement:18.1.0] /Users/dreamworld/.gradle/caches/transforms-3/d907f746f04f215d6be91c8609ed7a91/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+122
+123        <provider
+123-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:31:9-39:20
+124            android:name="androidx.startup.InitializationProvider"
+124-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:32:13-67
+125            android:authorities="com.houtalik.androidx-startup"
+125-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:33:13-68
+126            android:exported="false" >
+126-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:34:13-37
+127            <meta-data
+127-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:36:13-38:52
+128                android:name="androidx.work.WorkManagerInitializer"
+128-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:37:17-68
+129                android:value="androidx.startup" />
+129-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:38:17-49
+130            <meta-data
+130-->[androidx.emoji2:emoji2:1.0.0] /Users/dreamworld/.gradle/caches/transforms-3/f1880cf4497a0a81e315b120458930c1/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+131                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+131-->[androidx.emoji2:emoji2:1.0.0] /Users/dreamworld/.gradle/caches/transforms-3/f1880cf4497a0a81e315b120458930c1/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+132                android:value="androidx.startup" />
+132-->[androidx.emoji2:emoji2:1.0.0] /Users/dreamworld/.gradle/caches/transforms-3/f1880cf4497a0a81e315b120458930c1/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+133            <meta-data
+133-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/dreamworld/.gradle/caches/transforms-3/d734cd817a6eba2dc56ecab0ed4b46f1/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+134                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+134-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/dreamworld/.gradle/caches/transforms-3/d734cd817a6eba2dc56ecab0ed4b46f1/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+135                android:value="androidx.startup" />
+135-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/dreamworld/.gradle/caches/transforms-3/d734cd817a6eba2dc56ecab0ed4b46f1/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+136        </provider>
+137
+138        <service
+138-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:41:9-46:35
+139            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+139-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:42:13-88
+140            android:directBootAware="false"
+140-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:43:13-44
+141            android:enabled="@bool/enable_system_alarm_service_default"
+141-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:44:13-72
+142            android:exported="false" />
+142-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:45:13-37
+143        <service
+143-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:47:9-53:35
+144            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+144-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:48:13-84
+145            android:directBootAware="false"
+145-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:49:13-44
+146            android:enabled="@bool/enable_system_job_service_default"
+146-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:50:13-70
+147            android:exported="true"
+147-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:51:13-36
+148            android:permission="android.permission.BIND_JOB_SERVICE" />
+148-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:52:13-69
+149        <service
+149-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:54:9-59:35
+150            android:name="androidx.work.impl.foreground.SystemForegroundService"
+150-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:55:13-81
+151            android:directBootAware="false"
+151-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:56:13-44
+152            android:enabled="@bool/enable_system_foreground_service_default"
+152-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:57:13-77
+153            android:exported="false" />
+153-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:58:13-37
+154
+155        <receiver
+155-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:61:9-66:35
+156            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+156-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:62:13-88
+157            android:directBootAware="false"
+157-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:63:13-44
+158            android:enabled="true"
+158-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:64:13-35
+159            android:exported="false" />
+159-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:65:13-37
+160        <receiver
+160-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:67:9-77:20
+161            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+161-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:68:13-106
+162            android:directBootAware="false"
+162-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:69:13-44
+163            android:enabled="false"
+163-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:70:13-36
+164            android:exported="false" >
+164-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:71:13-37
+165            <intent-filter>
+165-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:73:13-76:29
+166                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+166-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:17-87
+166-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:25-84
+167                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+167-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:17-90
+167-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:25-87
+168            </intent-filter>
+169        </receiver>
+170        <receiver
+170-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:78:9-88:20
+171            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+171-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:79:13-104
+172            android:directBootAware="false"
+172-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:80:13-44
+173            android:enabled="false"
+173-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:81:13-36
+174            android:exported="false" >
+174-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:82:13-37
+175            <intent-filter>
+175-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:84:13-87:29
+176                <action android:name="android.intent.action.BATTERY_OKAY" />
+176-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:17-77
+176-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:25-74
+177                <action android:name="android.intent.action.BATTERY_LOW" />
+177-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:17-76
+177-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:25-73
+178            </intent-filter>
+179        </receiver>
+180        <receiver
+180-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:89:9-99:20
+181            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+181-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:90:13-104
+182            android:directBootAware="false"
+182-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:91:13-44
+183            android:enabled="false"
+183-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:92:13-36
+184            android:exported="false" >
+184-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:93:13-37
+185            <intent-filter>
+185-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:95:13-98:29
+186                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+186-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:17-83
+186-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:25-80
+187                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+187-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:17-82
+187-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:25-79
+188            </intent-filter>
+189        </receiver>
+190        <receiver
+190-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:100:9-109:20
+191            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+191-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:101:13-103
+192            android:directBootAware="false"
+192-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:102:13-44
+193            android:enabled="false"
+193-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:103:13-36
+194            android:exported="false" >
+194-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:104:13-37
+195            <intent-filter>
+195-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:106:13-108:29
+196                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+196-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:17-79
+196-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:25-76
+197            </intent-filter>
+198        </receiver>
+199        <receiver
+199-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:110:9-121:20
+200            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+200-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:111:13-88
+201            android:directBootAware="false"
+201-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:112:13-44
+202            android:enabled="false"
+202-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:113:13-36
+203            android:exported="false" >
+203-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:114:13-37
+204            <intent-filter>
+204-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:116:13-120:29
+205                <action android:name="android.intent.action.BOOT_COMPLETED" />
+205-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:117:17-79
+205-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:117:25-76
+206                <action android:name="android.intent.action.TIME_SET" />
+206-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:17-73
+206-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:25-70
+207                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+207-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:17-81
+207-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:25-78
+208            </intent-filter>
+209        </receiver>
+210        <receiver
+210-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:122:9-131:20
+211            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+211-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:123:13-99
+212            android:directBootAware="false"
+212-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:124:13-44
+213            android:enabled="@bool/enable_system_alarm_service_default"
+213-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:125:13-72
+214            android:exported="false" >
+214-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:126:13-37
+215            <intent-filter>
+215-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:128:13-130:29
+216                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+216-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:17-98
+216-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:25-95
+217            </intent-filter>
+218        </receiver>
+219        <receiver
+219-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:132:9-142:20
+220            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+220-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:133:13-78
+221            android:directBootAware="false"
+221-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:134:13-44
+222            android:enabled="true"
+222-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:135:13-35
+223            android:exported="true"
+223-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:136:13-36
+224            android:permission="android.permission.DUMP" >
+224-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:137:13-57
+225            <intent-filter>
+225-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:139:13-141:29
+226                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+226-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:17-88
+226-->[androidx.work:work-runtime:2.7.1] /Users/dreamworld/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:25-85
+227            </intent-filter>
+228        </receiver>
+229
+230        <service
+230-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/dreamworld/.gradle/caches/transforms-3/2b5bdc63d79d2c20f43c2e8f7d768d56/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+231            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+231-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/dreamworld/.gradle/caches/transforms-3/2b5bdc63d79d2c20f43c2e8f7d768d56/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+232            android:exported="false" >
+232-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/dreamworld/.gradle/caches/transforms-3/2b5bdc63d79d2c20f43c2e8f7d768d56/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+233            <meta-data
+233-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/dreamworld/.gradle/caches/transforms-3/2b5bdc63d79d2c20f43c2e8f7d768d56/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+234                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+234-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/dreamworld/.gradle/caches/transforms-3/2b5bdc63d79d2c20f43c2e8f7d768d56/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+235                android:value="cct" />
+235-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/dreamworld/.gradle/caches/transforms-3/2b5bdc63d79d2c20f43c2e8f7d768d56/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+236        </service>
+237        <service
+237-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/dreamworld/.gradle/caches/transforms-3/b64373fc9cf0284e82c525e511e1a120/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
+238            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+238-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/dreamworld/.gradle/caches/transforms-3/b64373fc9cf0284e82c525e511e1a120/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
+239            android:exported="false"
+239-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/dreamworld/.gradle/caches/transforms-3/b64373fc9cf0284e82c525e511e1a120/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
+240            android:permission="android.permission.BIND_JOB_SERVICE" >
+240-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/dreamworld/.gradle/caches/transforms-3/b64373fc9cf0284e82c525e511e1a120/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
+241        </service>
+242
+243        <receiver
+243-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/dreamworld/.gradle/caches/transforms-3/b64373fc9cf0284e82c525e511e1a120/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
+244            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+244-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/dreamworld/.gradle/caches/transforms-3/b64373fc9cf0284e82c525e511e1a120/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:33:13-132
+245            android:exported="false" />
+245-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/dreamworld/.gradle/caches/transforms-3/b64373fc9cf0284e82c525e511e1a120/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
+246
+247        <service
+247-->[androidx.room:room-runtime:2.2.5] /Users/dreamworld/.gradle/caches/transforms-3/229489cf0e331fbb0783dede15e429be/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+248            android:name="androidx.room.MultiInstanceInvalidationService"
+248-->[androidx.room:room-runtime:2.2.5] /Users/dreamworld/.gradle/caches/transforms-3/229489cf0e331fbb0783dede15e429be/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+249            android:directBootAware="true"
+249-->[androidx.room:room-runtime:2.2.5] /Users/dreamworld/.gradle/caches/transforms-3/229489cf0e331fbb0783dede15e429be/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+250            android:exported="false" />
+250-->[androidx.room:room-runtime:2.2.5] /Users/dreamworld/.gradle/caches/transforms-3/229489cf0e331fbb0783dede15e429be/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+251    </application>
+252
+253</manifest>
