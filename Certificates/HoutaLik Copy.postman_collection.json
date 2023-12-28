@@ -1,0 +1,573 @@
+{
+	"info": {
+		"_postman_id": "a95f0910-1d41-4e82-924e-2354fa282edb",
+		"name": "HoutaLik Copy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15749299"
+	},
+	"item": [
+		{
+			"name": "Shops on map",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.houtalik.com/api/custom/shops/{{lat}}/{{long}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"houtalik",
+						"com"
+					],
+					"path": [
+						"api",
+						"custom",
+						"shops",
+						"{{lat}}",
+						"{{long}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Search Fish/Shop",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.houtalik.com/api/custom/search/{{query}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"houtalik",
+						"com"
+					],
+					"path": [
+						"api",
+						"custom",
+						"search",
+						"{{query}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Shop detail",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.houtalik.com/api/custom/stocks/{{shop_id}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"houtalik",
+						"com"
+					],
+					"path": [
+						"api",
+						"custom",
+						"stocks",
+						"{{shop_id}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Shops that has fish",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.houtalik.com/api/custom/shops/fish/{{fish_id}}/0",
+					"protocol": "https",
+					"host": [
+						"api",
+						"houtalik",
+						"com"
+					],
+					"path": [
+						"api",
+						"custom",
+						"shops",
+						"fish",
+						"{{fish_id}}",
+						"0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Download image",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "https://api.houtalik.com/api/download/stock/img/identifier/{{img}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"houtalik",
+						"com"
+					],
+					"path": [
+						"api",
+						"download",
+						"stock",
+						"img",
+						"identifier",
+						"{{img}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Read QR",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var jsonData = pm.response.json();",
+							"pm.environment.set(\"token\", jsonData.token);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.houtalik.com/api/custom/shop/{{qr}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"houtalik",
+						"com"
+					],
+					"path": [
+						"api",
+						"custom",
+						"shop",
+						"{{qr}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Search Fish",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.houtalik.com/api/custom/search/fish/{{query}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"houtalik",
+						"com"
+					],
+					"path": [
+						"api",
+						"custom",
+						"search",
+						"fish",
+						"{{query}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Fish in stock",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "price",
+							"value": "30.23",
+							"type": "default"
+						},
+						{
+							"key": "tags",
+							"value": "fresh;mrobi",
+							"type": "default"
+						},
+						{
+							"key": "shop",
+							"value": "{{shop_id}}",
+							"type": "default"
+						},
+						{
+							"key": "fish",
+							"value": "{{fish_id}}",
+							"type": "default"
+						},
+						{
+							"key": "img",
+							"type": "file",
+							"src": "/home/dhia/Downloads/houtalik_512.png"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://api.houtalik.com/api/custom/create/stock",
+					"protocol": "https",
+					"host": [
+						"api",
+						"houtalik",
+						"com"
+					],
+					"path": [
+						"api",
+						"custom",
+						"create",
+						"stock"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Fish in stock",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "price",
+							"value": "6.23",
+							"type": "default"
+						},
+						{
+							"key": "tags",
+							"value": "fresh;mrobi",
+							"type": "default"
+						},
+						{
+							"key": "id",
+							"value": "{{stock_id}}",
+							"type": "default"
+						},
+						{
+							"key": "fish",
+							"value": "{{fish_id}}",
+							"type": "default"
+						},
+						{
+							"key": "img",
+							"type": "file",
+							"src": "/home/dhia/Pictures/restock_banner.png"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://api.houtalik.com/api/custom/update/stock",
+					"protocol": "https",
+					"host": [
+						"api",
+						"houtalik",
+						"com"
+					],
+					"path": [
+						"api",
+						"custom",
+						"update",
+						"stock"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Deactivate Fish in stock",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "default"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "https://api.houtalik.com/api/custom/deactivate/stock/{{stock_id}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"houtalik",
+						"com"
+					],
+					"path": [
+						"api",
+						"custom",
+						"deactivate",
+						"stock",
+						"{{stock_id}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Activate Fish in stock",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "default"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "https://api.houtalik.com/api/custom/activate/stock/{{stock_id}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"houtalik",
+						"com"
+					],
+					"path": [
+						"api",
+						"custom",
+						"activate",
+						"stock",
+						"{{stock_id}}"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Close Shop",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "default"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "https://api.houtalik.com/api/custom/close/{{shop_id}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"houtalik",
+						"com"
+					],
+					"path": [
+						"api",
+						"custom",
+						"close",
+						"{{shop_id}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Open Shop",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "default"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "https://api.houtalik.com/api/custom/open/{{shop_id}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"houtalik",
+						"com"
+					],
+					"path": [
+						"api",
+						"custom",
+						"open",
+						"{{shop_id}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Generate data",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "https://api.houtalik.com/api/custom/generate",
+					"protocol": "https",
+					"host": [
+						"api",
+						"houtalik",
+						"com"
+					],
+					"path": [
+						"api",
+						"custom",
+						"generate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fish Classification",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/home/dhia/Pictures/1_1.png"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://api.houtalik.com/api/custom/classification",
+					"protocol": "https",
+					"host": [
+						"api",
+						"houtalik",
+						"com"
+					],
+					"path": [
+						"api",
+						"custom",
+						"classification"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
